@@ -114,51 +114,7 @@ async def curiosidades(ctx):
     membro_ws = "<@644257150050500658>"
 
     curiosidades = {
-        # curiosidades enviadas pelo zile
-        1: f"O {membro_zile} é o único membro da FEC$ capaz de se comunicar com mulheres.",
-        2: f"O {membro_gabigol} é o único membro da FEC$ que já ficou drogado sem ter usado droga.",
-        3: f"O {membro_minideca} nunca foi amigo da Sara (mesmo indo na casa dela 2 vezes "
-           f"e usufruindo da comida, hospitalidade e família dela).",
-        4: f"O {membro_vitin}, como forma de flerte, pediu para ser bloqueado no Instagram. "
-           f"Você sabia disso? Lembre-se: não julgue as táticas dele, apenas os resultados.",
-        5: f"O {membro_ws} aceitou fumar cigarro, para pegar uma mina.",
 
-        # curiosidades enviadas pelo minideca
-        6: f"O {membro_zile} é o membro da FEC$ responsável pela saída de outro membro (XxmelokoxX) "
-           f"da FEC$.",
-        7: f"O {membro_gabigol} apesar de sempre falar que o tempo de vacas magras está chegando, "
-           f"saiu comprando passe de jogo que nem joga.",
-        8: f"O {membro_minideca} nunca perdeu um clutch 1x1 com a spike plantada.",
-        9: f"O {membro_vitin} não consegue falar sem parecer que está chorando.",
-        10: f"O {membro_ws} ainda é um membro da FEC$.",
-
-        # curiosidades enviadas pelo vitin
-        11: f"O {membro_zile} é o único membro da FEC$ que realizou o ato do coito.",
-        12: f"O {membro_gabigol} não pegou uma garota no role e deu a desculpa que estava drogado.",
-        13: f"O {membro_minideca} sempre que está jogando de Omen se revela cada vez mais homossexual.",
-        14: f"O {membro_vitin}, mesmo depois de levar inúmeros foras, ele continua tentando achar sua player 2, "
-            f"mesmo depois de ser bloqueado.",
-        15: f"O {membro_ws} é membro da FEC$ junto do {membro_zile} e foram responsáveis pelo Rodrigo "
-            f"trancar/reprovar na faculdade.",
-
-        # curiosidades enviadas pelo gabigol
-        16: f"O {membro_zile} apesar de namorar, ele é o mais talarico da FEC$.",
-        17: f"O {membro_gabigol} tem a incrível habilidade de iludir meninas inocentes no Instagram, "
-            f"elas mal sabem que estão se envolvendo com o gabifrouxogol.",
-        18: f"O {membro_minideca} apesar de ter um super arsenal de conhecimentos em drogas, ele não as usa, "
-            f"em vez disso ele vai trabalhar vendendo camisinha e pesando os outros na farmácia.",
-        19: f"O {membro_vitin} é o único membro com o poder de espantar as mulheres. Dizem que ele é até alérgico, "
-            f"mas lembre-se, pelo menos ele tenta.",
-        20: f"O {membro_ws} é membro da FEC$ e possui vários nomes, entre eles: primo do sagui, ww, ws, ws..ws..ws, "
-            f"Bradock, pesão, papai whisky e muito mais.",
-
-        21: f"O {membro_zile} nunca ficou mais de 3 meses em um emprego.",
-        22: f"O {membro_gabigol} já teve mais de 17 web's namoros em menos de um mês.",
-        23: f"O {membro_minideca} é o único membro da FEC$ que nunca trabalhou.",
-        24: f"O {membro_vitin} nunca tirou uma foto com a Ray Ray, apenas o {membro_zile} e o {membro_minideca} "
-            f"possuem esse tipo de foto.",
-        25: f"O {membro_ws}, quando o {membro_zile} disse que a Sara iria na casa dele, o {membro_ws} sugeriu um trisal? "
-            f"(obs: o {membro_zile} nunca nem abraçou a Sara Cristina).",
     }
 
     curiosidade_selecionada = curiosidades.get(numero_aleatorio, "Opção inválida")
@@ -180,37 +136,7 @@ async def opiniao(ctx):
     membro_ws = "<@644257150050500658>"
 
     opinioes = {
-        1: f"O {membro_zile} é o único membro útil da FEC$.",
-        2: f"O {membro_gabigol} é o diamante mais fajuto do Valorant.",
-        3: f"O {membro_minideca} é o cara mais tóxico da FEC$.",
-        4: f"O {membro_vitin} é o cara mais injustiçado da FEC$.",
-        5: f"O {membro_ws} é o mais pegador da FEC$.",
-
-        6: f"O {membro_zile} é o membro mais tóxico da FEC$ e todo mundo sabe.",
-        7: f"O {membro_gabigol} só sabe jogar com um agente (e quando sabe).",
-        8: f"O {membro_minideca} é o melhor (H)omen  da FEC$.",
-        9: f"O {membro_vitin} apesar de ter jogado CS:GO, ele é pior que o melokokv no valorant.",
-        10: f"O {membro_ws} é o membro mais chavoso da FEC$.",
-
-        11: f"O {membro_zile} é o player mais tóxico/racista/preconceituoso da FEC$.",
-        12: f"O {membro_gabigol} gosta de se drogar em roles.",
-        13: f"O {membro_minideca} é o cara que mais farpa na FEC$.",
-        14: f"O {membro_vitin} é o cara mais injustiçado da FEC$, era para ser platina há muito tempo.",
-        15: f"O {membro_ws} é o membro mais caloteiro da FEC$.",
-
-        16: f"O {membro_zile} é o player mais tóxico/machista/xenofóbico da FEC$.",
-        17: f"O {membro_gabigol} é sempre julgado pelos seus companheiros de equipe, "
-            f"porém chutá-lo todo mundo quer chutar, agora para mamá-lo....",
-        18: f"O {membro_minideca} é o cara mais vagabundo da FEC$.",
-        19: f"O {membro_vitin} é o pior sova e kj da FEC$ (obs ele é o único).",
-        20: f"O {membro_ws} é o membro mais alcoólatra da FEC$.",
-
-        21: f"O {membro_zile} nunca mais foi o mesmo depois da morte do chamer.",
-        22: f"O {membro_gabigol} tem apenas dois neurônios, RA-ZE, e mesmo assim eles"
-            f" não funcionam direito.",
-        23: f"O {membro_minideca} é o main omen menos homem do servidor do Valorant.",
-        24: f"O {membro_vitin} tem a maior taxa de HS e o pior rank da FEC$, feito admirável.",
-        25: f"O {membro_ws} nunca deveria ter abandonado a fonha, ela realmente o amava.",
+        
     }
 
     opniao_selecionada = opinioes.get(numero_aleatorio, "Opção inválida")
